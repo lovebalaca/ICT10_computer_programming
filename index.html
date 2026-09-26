@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive Web Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Complete CSS Properties Demo</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+    <header class="header">
+
+        <div class="logo">
+            CSS<span>101</span>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#text">Text</a>
+            <a href="#box">Box Model</a>
+            <a href="#layout">Layout</a>
+            <a href="#effects">Effects</a>
+            <a href="#form">Form</a>
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">ICT 10 • WEB DESIGN</p>
+
+            <h1>CSS Properties<br>
+                <span>Demonstration</span>
+            </h1>
+
+            <p>
+                Explore the most important CSS properties used to design
+                modern and responsive websites.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#text" class="btn primary-btn">Start Learning</a>
+                <a href="#layout" class="btn secondary-btn">View Layouts</a>
+            </div>
+
+        </div>
+
+        <div class="css-card">
+            <div class="code-line purple">.website {</div>
+            <div class="code-line">    display: flex;</div>
+            <div class="code-line">    color: white;</div>
+            <div class="code-line">    padding: 20px;</div>
+            <div class="code-line">    border-radius: 15px;</div>
+            <div class="code-line purple">}</div>
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         COLOR SECTION
+    ========================== -->
+    <section class="section">
+
+        <div class="section-title">
+            <p>01 • COLORS</p>
+            <h2>Colors & Backgrounds</h2>
+            <span></span>
+        </div>
+
+        <div class="color-grid">
+
+            <div class="color-box solid">
+                <h3>Background Color</h3>
+                <p>background-color</p>
+            </div>
+
+            <div class="color-box gradient">
+                <h3>Linear Gradient</h3>
+                <p>background: linear-gradient()</p>
+            </div>
+
+            <div class="color-box transparent">
+                <h3>Opacity</h3>
+                <p>opacity: 0.6</p>
+            </div>
+
+            <div class="color-box image-bg">
+                <h3>Background Image</h3>
+                <p>background-image</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         TEXT SECTION
+    ========================== -->
+    <section id="text" class="section light-section">
+
+        <div class="section-title">
+            <p>02 • TYPOGRAPHY</p>
+            <h2>Text & Font Properties</h2>
+            <span></span>
+        </div>
+
+        <div class="text-demo">
+
+            <div class="text-card">
+
+                <h1 class="text-heading">
+                    Heading Example
+                </h1>
+
+                <p class="large-text">
+                    This paragraph demonstrates several CSS text properties.
+                </p>
+
+                <p class="uppercase">
+                    text-transform: uppercase
+                </p>
+
+                <p class="underline">
+                    text-decoration: underline
+                </p>
+
+                <p class="spacing">
+                    Letter spacing and word spacing example
+                </p>
+
+                <p class="shadow-text">
+                    Text Shadow
+                </p>
+
+            </div>
+
+            <div class="property-list">
+
+                <h3>Important Properties</h3>
+
+                <ul>
+                    <li>font-family</li>
+                    <li>font-size</li>
+                    <li>font-weight</li>
+                    <li>font-style</li>
+                    <li>color</li>
+                    <li>text-align</li>
+                    <li>text-decoration</li>
+                    <li>text-transform</li>
+                    <li>letter-spacing</li>
+                    <li>line-height</li>
+                    <li>text-shadow</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         BOX MODEL
+    ========================== -->
+    <section id="box" class="section">
+
+        <div class="section-title">
+            <p>03 • BOX MODEL</p>
+            <h2>Margin, Border & Padding</h2>
+            <span></span>
+        </div>
+
+        <div class="box-model-demo">
+
+            <div class="margin-box">
+
+                <div class="border-box">
+
+                    <div class="padding-box">
+
+                        <div class="content-box">
+                            CONTENT
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="box-explanation">
+
+            <div>
+                <strong>Margin</strong>
+                <p>Space outside the element.</p>
+            </div>
+
+            <div>
+                <strong>Border</strong>
+                <p>Line surrounding the element.</p>
+            </div>
+
+            <div>
+                <strong>Padding</strong>
+                <p>Space between content and border.</p>
+            </div>
+
+            <div>
+                <strong>Content</strong>
+                <p>The actual information.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         WIDTH & HEIGHT
+    ========================== -->
+    <section class="section light-section">
+
+        <div class="section-title">
+            <p>04 • DIMENSIONS</p>
+            <h2>Width & Height</h2>
+            <span></span>
+        </div>
+
+        <div class="dimension-container">
+
+            <div class="dimension px">
+                Width: 200px
+            </div>
+
+            <div class="dimension percent">
+                Width: 70%
+            </div>
+
+            <div class="dimension max">
+                max-width
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FLEXBOX
+    ========================== -->
+    <section id="layout" class="section">
+
+        <div class="section-title">
+            <p>05 • FLEXBOX</p>
+            <h2>Flexbox Layout</h2>
+            <span></span>
+        </div>
+
+        <p class="center-text">
+            display: flex • justify-content • align-items • gap
+        </p>
+
+        <div class="flex-demo">
+
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>
+            <div class="flex-item">4</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         GRID
+    ========================== -->
+    <section class="section light-section">
+
+        <div class="section-title">
+            <p>06 • CSS GRID</p>
+            <h2>Grid Layout</h2>
+            <span></span>
+        </div>
+
+        <div class="grid-demo">
+
+            <div class="grid-item large">A</div>
+            <div class="grid-item">B</div>
+            <div class="grid-item">C</div>
+            <div class="grid-item">D</div>
+            <div class="grid-item">E</div>
+            <div class="grid-item">F</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CARDS
+    ========================== -->
+    <section class="section">
+
+        <div class="section-title">
+            <p>07 • CARDS</p>
+            <h2>Hover Effects</h2>
+            <span></span>
+        </div>
+
+        <div class="card-container">
+
+            <div class="info-card">
+
+                <div class="icon">🎨</div>
+
+                <h3>Design</h3>
+
+                <p>
+                    CSS controls the appearance and presentation
+                    of HTML elements.
+                </p>
+
+                <a href="#">Learn More →</a>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <div class="icon">💻</div>
+
+                <h3>Development</h3>
+
+                <p>
+                    CSS works together with HTML and JavaScript
+                    to create websites.
+                </p>
+
+                <a href="#">Learn More →</a>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <div class="icon">📱</div>
+
+                <h3>Responsive</h3>
+
+                <p>
+                    Media queries allow websites to adapt to
+                    different screen sizes.
+                </p>
+
+                <a href="#">Learn More →</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         BUTTONS
+    ========================== -->
+    <section class="section light-section">
+
+        <div class="section-title">
+            <p>08 • BUTTONS</p>
+            <h2>Buttons & Transitions</h2>
+            <span></span>
+        </div>
+
+        <div class="button-demo">
+
+            <button class="demo-button normal">
+                Normal Button
+            </button>
+
+            <button class="demo-button hover-button">
+                Hover Me
+            </button>
+
+            <button class="demo-button transform-button">
+                Transform
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         TRANSFORM
+    ========================== -->
+    <section id="effects" class="section">
+
+        <div class="section-title">
+            <p>09 • TRANSFORMS</p>
+            <h2>CSS Transform</h2>
+            <span></span>
+        </div>
+
+        <div class="transform-demo">
+
+            <div class="transform-box rotate">
+                Rotate
+            </div>
+
+            <div class="transform-box scale">
+                Scale
+            </div>
+
+            <div class="transform-box move">
+                Translate
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ANIMATION
+    ========================== -->
+    <section class="section light-section">
+
+        <div class="section-title">
+            <p>10 • ANIMATION</p>
+            <h2>CSS Animation</h2>
+            <span></span>
+        </div>
+
+        <div class="animation-area">
+
+            <div class="animated-ball"></div>
+
+        </div>
+
+        <p class="center-text">
+            @keyframes • animation-name • animation-duration
+            • animation-iteration-count
+        </p>
+
+    </section>
+
+
+    <!-- =========================
+         IMAGE
+    ========================== -->
+    <section class="section">
+
+        <div class="section-title">
+            <p>11 • IMAGES</p>
+            <h2>Image Properties</h2>
+            <span></span>
+        </div>
+
+        <div class="image-container">
+
+            <div class="image-card">
+
+                <img
+                    src="https://picsum.photos/600/400"
+                    alt="Sample image"
+                >
+
+                <h3>object-fit</h3>
+
+                <p>
+                    This image demonstrates width, height,
+                    border-radius and object-fit.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         TABLE
+    ========================== -->
+    <section class="section light-section">
+
+        <div class="section-title">
+            <p>12 • TABLE</p>
+            <h2>CSS Table Styling</h2>
+            <span></span>
+        </div>
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Property</th>
+                        <th>Purpose</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>color</td>
+                        <td>Changes text color</td>
+                        <td>color: red;</td>
+                    </tr>
+
+                    <tr>
+                        <td>padding</td>
+                        <td>Creates inner space</td>
+                        <td>padding: 20px;</td>
+                    </tr>
+
+                    <tr>
+                        <td>margin</td>
+                        <td>Creates outer space</td>
+                        <td>margin: 20px;</td>
+                    </tr>
+
+                    <tr>
+                        <td>display</td>
+                        <td>Controls layout</td>
+                        <td>display: flex;</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FORM
+    ========================== -->
+    <section id="form" class="section">
+
+        <div class="section-title">
+            <p>13 • FORM</p>
+            <h2>Form Styling</h2>
+            <span></span>
+        </div>
+
+        <form class="student-form">
+
+            <label for="name">
+                Student Name
+            </label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+            >
+
+
+            <label for="email">
+                Email
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+            >
+
+
+            <label for="message">
+                Message
+            </label>
+
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Write your message..."
+            ></textarea>
+
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- =========================
+         POSITIONING
+    ========================== -->
+    <section class="section light-section">
+
+        <div class="section-title">
+            <p>14 • POSITION</p>
+            <h2>Positioning</h2>
+            <span></span>
+        </div>
+
+        <div class="position-container">
+
+            <div class="position-box">
+
+                Parent
+
+                <div class="absolute-box">
+                    absolute
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CSS VARIABLES
+    ========================== -->
+    <section class="section">
+
+        <div class="section-title">
+            <p>15 • VARIABLES</p>
+            <h2>CSS Custom Properties</h2>
+            <span></span>
+        </div>
+
+        <div class="variable-demo">
+
+            <h2>CSS Variables</h2>
+
+            <p>
+                --primary-color is being used throughout
+                this demonstration.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <h2>CSS 101</h2>
+
+            <p>
+                A complete CSS properties demonstration
+                for ICT 10 students.
+            </p>
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#text">Typography</a>
+                <a href="#layout">Layout</a>
+                <a href="#form">Form</a>
+
+            </div>
+
+            <p class="copyright">
+                © 2026 CSS Learning Demo
+            </p>
+
+        </div>
+
+    </footer>
+
+
+</body>
+</html>
